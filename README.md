@@ -1,65 +1,65 @@
-Resume Screening System Using NLP
-Project Overview
+📝 Resume Screening System Using NLP
+🔍 Project Overview
 
 This project is an ATS-style Resume Screening System built using Natural Language Processing (NLP) techniques.
-It allows recruiters or HR professionals to automatically screen and rank resumes based on their similarity to a job description.
+It allows recruiters or HR professionals to automatically screen and rank resumes based on their similarity to a Job Description (JD).
 
 The system supports:
 
-Uploading multiple resumes in PDF format
+📄 Uploading multiple resumes in PDF format
 
-Comparing them with a Job Description (JD)
+📋 Comparing them with a Job Description (JD)
 
-Generating an ATS Score (%) for each resume
+📊 Generating an ATS Score (%) for each resume
 
-Ranking resumes from best to least match
+🏆 Ranking resumes from best to least match
 
-Visualizing results with progress bars and charts
+📈 Visualizing results with progress bars and charts
 
-Saving the ranked results to a CSV file
+💾 Saving the ranked results to a CSV file
 
-Technologies Used
+🛠️ Technologies Used
 
-Python – main programming language
+🐍 Python – main programming language
 
-PyPDF2 – extract text from PDF resumes
+📑 PyPDF2 – extract text from PDF resumes
 
-scikit-learn – TF-IDF vectorizer & cosine similarity
+🔢 scikit-learn – TF-IDF vectorizer & cosine similarity
 
-Pandas – data handling & CSV export
+🐼 Pandas – data handling & CSV export
 
-Matplotlib – visualization of similarity scores
+📊 Matplotlib – visualization of similarity scores
 
-Streamlit – web frontend for uploading resumes and displaying ATS results
+🌐 Streamlit – web frontend for uploading resumes and displaying ATS results
 
-Regex – text preprocessing and cleaning
+🔍 Regex – text preprocessing and cleaning
 
-Project Features
+✨ Project Features
 
-Extract text from multiple PDF resumes
+📄 Extract text from multiple PDF resumes
 
-Clean and preprocess resumes & job description
+🧹 Clean and preprocess resumes & job description
 
-Convert text into numerical features using TF-IDF
+🔢 Convert text into numerical features using TF-IDF
 
-Compute similarity between JD and resumes using cosine similarity
+📏 Compute similarity between JD and resumes using cosine similarity
 
-Generate ATS Score (%) for each resume
+📊 Generate ATS Score (%) for each resume
 
-Display ranked results in a table
+🏆 Display ranked results in a table
 
-Visualize scores with bar charts
+📈 Visualize scores with bar charts
 
-Save results to CSV for HR record keeping
+💾 Save results to CSV for HR record keeping
 
-Simple and interactive Streamlit frontend
+🌐 Simple and interactive Streamlit frontend
 
-Usage Instructions
-1. Clone the Repository
+🚀 Usage Instructions
+1️⃣ Clone the Repository
 git clone <your-repo-link>
 cd Resume-Screening-NLP
 
-2. Install Dependencies
+2️⃣ Install Dependencies
 pip install -r requirements.txt
 
 
@@ -75,19 +75,21 @@ pandas
 
 matplotlib
 
-3. Run the Streamlit App
+3️⃣ Run the Streamlit App
 streamlit run app.py
 
 
-Paste the Job Description in the text area
+Steps inside the App:
 
-Upload one or multiple PDF resumes
+📝 Paste the Job Description in the text area
 
-View ATS Score (%) for each resume
+📂 Upload one or multiple PDF resumes
 
-Download ranked results as CSV
+📊 View ATS Score (%) for each resume
 
-Project Structure
+💾 Download ranked results as CSV
+
+📁 Project Structure
 Resume-Screening-NLP/
 │
 ├── app.py                   # Streamlit frontend + ML logic
